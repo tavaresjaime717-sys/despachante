@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+}
+
+/* Custom glowing effects inspired by the cartaz */
+.glow-blue {
+  box-shadow: 0 0 25px -5px rgba(0, 180, 216, 0.35);
+}
+
+.glow-blue-lg {
+  box-shadow: 0 0 40px -2px rgba(0, 180, 216, 0.45);
+}
+
+.glow-text {
+  text-shadow: 0 0 16px rgba(56, 189, 248, 0.6);
+}
+
+/* Print styles for OS / Ficha de Atendimento */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}

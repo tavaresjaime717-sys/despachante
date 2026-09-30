@@ -1,0 +1,6 @@
+{
+  "name": "Despachante Santa Maria - Bio Site & Gestão de Atendimentos",
+  "description": "Bio site para Despachante Santa Maria (SBC/SP). Coleta de dados (placa, CRLV, telefone, nome), envio automático para WhatsApp nos números oficiais e painel administrativo integrado.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
